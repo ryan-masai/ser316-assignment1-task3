@@ -10,25 +10,6 @@ Branch Structure: The number guessing game is structured with a main branch that
     feature3: Add a hint mechanic to aid players with their guesses
     hotfix: Bugfix that enables the max value of the range of guessing numbers to be a possible solution 
 
-* ab7cd7b (hotfix) Fix randomInt to properly include max value in range
-| * 1f23d1c (feature3) done
-| * 3631e47 had to fix
-| * c070288 got it done
-| * f1097b6 started hint
-|/
-| * e367776 (feature2) Implement max attempts logic and game over condition
-| * 45aa640 Add maxAttempts constant and game over state
-| * 5f95961 (dev) Add encouraging message for players
-|/
-| * f48cf81 (HEAD -> documentation, feature1) Add version comment documenting quit feature
-| * 9df380f Improve user feedback messages for guesses
-| * f8dfe81 Add play-again loop functionality
-| * 3bbc201 Add ability to quit game with negative number input
-|/
-* 45767c4 (main) Initial Number guessing game
-
-
-
 # Git Commands: Merge, Rebase, Squash, & Cherry-Pick (Uses)
 Merge is used to integrate one branch into another branch while maintaining the commit history of both branches. If commits (changes) were made within the same logical chunks of a file in each respective branch a conflict occurs. Git will prompt the user to manually edit the file to determine whether to maintain the current branch's data, the merging branch's data, or both branches' data. Merge is used to integrate new features into a branch, ensure you are working with up to date files, and ensure your branch is in a working state before merging into the main branch. 
 
